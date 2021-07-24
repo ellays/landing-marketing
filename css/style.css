@@ -790,12 +790,15 @@ ul.footer__social {
 
 
 @media (max-width: 1200px) {
+
     .about__inner {
         display: block;
     }
+
     .about__title {
         margin-bottom: 50px;
     }
+    
     .about,
     .expertise,
     .portfolio,
