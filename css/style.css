@@ -797,7 +797,8 @@ ul.footer__social {
 
     .about__title,
     .team__title,
-    .pricing__title {
+    .pricing__title,
+    .connection__title {
         margin-bottom: 50px;
     }
     
@@ -806,7 +807,8 @@ ul.footer__social {
     .portfolio,
     .slider-blog,
     .team,
-    .pricing {
+    .pricing
+    .connection {
         padding: 75px 0;
     }
 
@@ -869,6 +871,32 @@ ul.footer__social {
 
     .portfolio__top {
         display: block;
+    }
+
+    .connection {
+        background-image: none;
+    }
+
+    .form {
+        max-width: 100%;
+    }
+
+    .footer__top {
+        padding-top: 75px;
+    }
+
+    .footer__logo {
+        margin-bottom: 40px;
+    }
+
+    ul.footer__social {
+        margin-bottom: 40px;
+        flex-wrap: wrap;
+    }
+
+    .footer__social-list {
+        width: 33.333333%;
+        margin-bottom: 25px;
     }
 
 }
@@ -1025,6 +1053,10 @@ ul.footer__social {
 
         .portfolio__numbers-item {
             width: 100%;
+        }
+
+        .footer__social-list {
+            width: 50%;
         }
     }
 
